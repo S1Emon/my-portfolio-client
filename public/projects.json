@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Computer Parts Manufacturer",
+        "features": "It has been made responsive using Tailwind CSS with Daisy UI. You can log in here using Gmail and a custom email. You can add review manage orders etc. Admin can manage all users. You can make payment of orders.",
+        "technology": "JavaSCript, ReactJS, JSX, React Router, Firebase, MongoDB, and Heroku",
+        "img1": "https://i.ibb.co/Ttk7dQq/Screenshot-140.png",
+        "img2": "https://i.ibb.co/B6ktrQy/CMP2.png",
+        "img3": "https://i.ibb.co/QrVpzf0/CPM.png",
+        "link": "https://computer-parts-manufactu-c030e.firebaseapp.com/"
+    },
+    {
+        "id": 2,
+        "name": "Bicycle Warehouse",
+        "features": "It has been made responsive using Bootstrap. You can log in here using. Gmail and a custom email. You can add products and manage orders etc.",
+        "technology": "JavaScript, ReactJS, JSX, React Router, Firebase, MongoDB, and Heroku",
+        "img1": "https://i.ibb.co/C8XsfrX/Screenshot-141.png",
+        "img2": "https://i.ibb.co/ggW7ddQ/BW.png",
+        "img3": "https://i.ibb.co/k25TjXQ/BW2.png",
+        "link": "https://bicycle-warhouse.firebaseapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Paxton Photostat",
+        "features": "It has been made responsive using Bootstrap. You can log in here using. Gmail and a custom email. You can be booked orders.",
+        "technology": "JavaSCript, ReactJS, JSX, React Router, & Firebase.",
+        "img1": "https://i.ibb.co/23brKWG/Screenshot-142.png",
+        "img2": "https://i.ibb.co/YPHzp6n/PP.png",
+        "img3": "https://i.ibb.co/zbxyhk1/PP2.png",
+        "link": "https://paxton-photostat.web.app/"
+    }
+]
