@@ -32,7 +32,7 @@ const About = () => {
                     <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                     <div className="drawer-content flex flex-col">
 
-                        <div className="w-full justify-center navbar bg-neutral-focus shadow-sm shadow-slate-400">
+                        <div className="w-full justify-center navbar bg-neutral-focus shadow-sm shadow-black">
 
                             <ul className="menu  menu-horizontal text-white">
 

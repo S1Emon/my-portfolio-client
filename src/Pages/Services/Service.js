@@ -10,7 +10,7 @@ const Service = () => {
                 data-aos-delay="200"
                 data-aos-duration="1000"
 
-                className="card lg:max-w-lg bg-neutral-focus shadow-white shadow-lg my-8">
+                className="card lg:max-w-lg bg-neutral-focus shadow-black shadow-sm my-8">
                 <figure className="px-2 pt-2">
                     <span className='text-9xl text-white'><CgWebsite></CgWebsite></span>
                 </figure>
@@ -25,7 +25,7 @@ const Service = () => {
             <div data-aos="flip-down"
                 data-aos-delay="400"
                 data-aos-duration="1000"
-                className="card lg:max-w-lg bg-neutral-focus shadow-white shadow-lg my-8">
+                className="card lg:max-w-lg bg-neutral-focus shadow-black shadow-sm my-8">
                 <figure className="px-2 pt-2">
                     <span className='text-9xl text-white'><FaReact></FaReact></span>
                 </figure>
@@ -40,7 +40,7 @@ const Service = () => {
             <div data-aos="flip-up"
                 data-aos-delay="600"
                 data-aos-duration="1000"
-                className="card lg:max-w-lg bg-neutral-focus shadow-white shadow-lg my-8">
+                className="card lg:max-w-lg bg-neutral-focus shadow-black shadow-sm my-8">
                 <figure className="px-2 pt-2">
                     <span className='text-9xl text-white'><FaNode></FaNode></span>
                 </figure>

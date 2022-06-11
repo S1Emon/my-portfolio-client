@@ -36,13 +36,25 @@ const Banner = () => {
                             href={resume} download className="btn btn-wide btn-outline">Get Resume<FiDownload className='ml-2 text-xl'></FiDownload>
                         </a>
                         <div className='flex justify-between my-6'>
-                            <a href="https://github.com/S1Emon" target="_blank" rel="noopener noreferrer"><AiFillGithub className='text-3xl text-black hover:shadow-red-700 shadow-black shadow-lg rounded-xl '></AiFillGithub></a>
+                            <a data-aos="fade-right"
+                                data-aos-delay="600"
+                                data-aos-duration="800"
+                                href="https://github.com/S1Emon" target="_blank" rel="noopener noreferrer"><AiFillGithub className='text-3xl text-black hover:shadow-red-700 shadow-black shadow-lg rounded-xl '></AiFillGithub></a>
 
-                            <a href="https://www.linkedin.com/in/md-emon-hossain-08b187214/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className='text-3xl hover:shadow-red-700 shadow-blue-900 text-blue-600 shadow-lg'></AiFillLinkedin></a>
+                            <a data-aos="fade-right"
+                                data-aos-delay="600"
+                                data-aos-duration="800"
+                                href="https://www.linkedin.com/in/md-emon-hossain-08b187214/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className='text-3xl hover:shadow-red-700 shadow-blue-900 text-blue-600 shadow-lg'></AiFillLinkedin></a>
 
-                            <a href="https://stackoverflow.com/users/19189538/shahariar-emon" target="_blank" rel="noopener noreferrer"><BsStackOverflow className='text-3xl hover:shadow-red-700 shadow-orange-600 shadow-lg  text-orange-700'></BsStackOverflow></a>
+                            <a data-aos="fade-left"
+                                data-aos-delay="600"
+                                data-aos-duration="800"
+                                href="https://stackoverflow.com/users/19189538/shahariar-emon" target="_blank" rel="noopener noreferrer"><BsStackOverflow className='text-3xl hover:shadow-red-700 shadow-orange-600 shadow-lg  text-orange-700'></BsStackOverflow></a>
 
-                            <a href="https://twitter.com/Emon08776950" target="_blank" rel="noopener noreferrer"><AiFillTwitterSquare className='text-3xl text-blue-600 shadow-lg shadow-blue-700 hover:shadow-red-700'></AiFillTwitterSquare></a>
+                            <a data-aos="fade-left"
+                                data-aos-delay="600"
+                                data-aos-duration="800"
+                                href="https://twitter.com/Emon08776950" target="_blank" rel="noopener noreferrer"><AiFillTwitterSquare className='text-3xl text-blue-600 shadow-lg shadow-blue-700 hover:shadow-red-700'></AiFillTwitterSquare></a>
                         </div>
 
                     </div>

@@ -14,7 +14,7 @@ const Project = ({ project }) => {
             <div data-aos="flip-right"
                 data-aos-delay="100"
                 data-aos-duration="1200"
-                className="card lg:max-w-lg bg-base-100 shadow-white shadow-md">
+                className="card lg:max-w-lg bg-base-100 shadow-black shadow-sm">
                 <figure className="px-2 pt-2 pb-2">
                     <img src={img1} alt="Shoes" className="rounded-xl" />
                 </figure>
