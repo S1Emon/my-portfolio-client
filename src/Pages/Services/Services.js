@@ -3,9 +3,9 @@ import Service from './Service';
 
 const Services = () => {
     return (
-        <section>
-            <div className='container my-16 mx-auto'>
-                <div>
+        <section className='my-20'>
+            <div className='container mx-auto'>
+                <div className='mb-14'>
                     <h1 className='text-4xl font-bold text-white text-center'>SERVICE I PROVIDE</h1>
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>

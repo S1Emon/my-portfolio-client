@@ -29,7 +29,7 @@ const Banner = () => {
                         <p data-aos="fade-right"
                             data-aos-delay="600"
                             data-aos-duration="800"
-                            className="mb-5">UI/UX Designer specializing in React JS.  I'm able to create any type of website using React JS. Interest to know about me?</p>
+                            className="mb-5 text-gray-900">UI/UX Designer specializing in React JS.  I'm able to create any type of website using React JS. Interest to know about me?</p>
                         <a data-aos="zoom-in"
                             data-aos-delay="1300"
 

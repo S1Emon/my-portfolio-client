@@ -5,13 +5,14 @@ import { MdTravelExplore } from 'react-icons/md'
 
 const Summary = () => {
     return (
-        <section className='bg-neutral mb-16'>
+        <section className='bg-neutral my-40'>
+            <h1 className='text-white text-4xl font-bold text-center my-16'>SUMMARY</h1>
             <div className='lg:flex justify-around'>
                 <div data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500"
 
-                    className="card lg:max-w-lg bg-neutral-focus shadow-black shadow-sm">
+                    className="card w-44 bg-neutral-focus shadow-black shadow-sm">
                     <div className="card-body items-center text-center">
                         <span className='text-6xl font-bold text-white'><IoIosPeople></IoIosPeople></span>
                         <h2 className="text-5xl font-bold text-white">30+</h2>
@@ -23,7 +24,7 @@ const Summary = () => {
                     data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500"
-                    className="card bg-neutral-focus lg:max-w-lg shadow-black shadow-sm">
+                    className="card bg-neutral-focus w-44 shadow-black shadow-sm">
                     <div className="card-body items-center text-center">
                         <span className='text-6xl font-bold text-white'><AiOutlineProject></AiOutlineProject></span>
                         <h2 className="text-5xl font-bold text-white">50+</h2>
@@ -34,7 +35,7 @@ const Summary = () => {
                 <div data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500"
-                    className="card bg-neutral-focus lg:max-w-lg shadow-black shadow-sm">
+                    className="card bg-neutral-focus w-44 shadow-black shadow-sm">
                     <div className="card-body items-center text-center">
                         <span className='text-6xl font-bold text-white'><MdTravelExplore></MdTravelExplore></span>
                         <h2 className="text-5xl font-bold text-white">1 Year</h2>
