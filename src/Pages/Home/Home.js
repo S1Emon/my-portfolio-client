@@ -1,9 +1,9 @@
 import React from 'react';
 import Banner from './Banner';
-import Footer from '../Shared/Footer'
 import Services from '../Services/Services';
 import Projects from '../Projects/Projects';
 import Skills from './Skills';
+import Summary from './Summary';
 
 const Home = () => {
     return (
@@ -12,7 +12,7 @@ const Home = () => {
             <Projects></Projects>
             <Skills></Skills>
             <Services></Services>
-            <Footer></Footer>
+            <Summary></Summary>
         </>
     );
 };

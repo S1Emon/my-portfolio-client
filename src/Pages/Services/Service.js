@@ -1,44 +1,54 @@
 import React from 'react';
-import { BsWordpress } from 'react-icons/bs';
+import { CgWebsite } from 'react-icons/cg';
 import { FaReact, FaNode } from 'react-icons/fa';
 
 const Service = () => {
     return (
         <>
 
-            <div class="card lg:max-w-lg bg-base-300 shadow-3xl my-8">
-                <figure class="px-2 pt-2">
-                    <span className='text-9xl'><BsWordpress></BsWordpress></span>
+            <div data-aos="flip-up"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+
+                className="card lg:max-w-lg bg-neutral-focus shadow-white shadow-lg my-8">
+                <figure className="px-2 pt-2">
+                    <span className='text-9xl text-white'><CgWebsite></CgWebsite></span>
                 </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title">WordPress</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions">
-                        <button class="btn btn-primary">Read Details</button>
+                <div className="card-body items-center text-center">
+                    <h2 className="card-title text-white">Plain Websites</h2>
+                    <p className='text-white'>I make this kind of Websites using HTML,CSS, & JavaScript.</p>
+                    <div className="card-actions">
+                        <button className="btn btn-outline text-white">Read Details</button>
                     </div>
                 </div>
             </div>
-            <div class="card lg:max-w-lg bg-base-300 shadow-3xl my-8">
-                <figure class="px-2 pt-2">
-                    <span className='text-9xl'><FaReact></FaReact></span>
+            <div data-aos="flip-down"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                className="card lg:max-w-lg bg-neutral-focus shadow-white shadow-lg my-8">
+                <figure className="px-2 pt-2">
+                    <span className='text-9xl text-white'><FaReact></FaReact></span>
                 </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title">ReactJS Based Design</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions">
-                        <button class="btn btn-primary">Read Details</button>
+                <div className="card-body items-center text-center">
+                    <h2 className="card-title text-white">UI/UX Design</h2>
+                    <p className='text-white'>I make this kind of websites using ReactJS & CSS Framework.</p>
+                    <div className="card-actions">
+                        <button className="btn btn-outline text-white">Read Details</button>
                     </div>
                 </div>
             </div>
-            <div class="card lg:max-w-lg bg-base-300 shadow-3xl my-8">
-                <figure class="px-2 pt-2">
-                    <span className='text-9xl'><FaNode></FaNode></span>
+            <div data-aos="flip-up"
+                data-aos-delay="600"
+                data-aos-duration="1000"
+                className="card lg:max-w-lg bg-neutral-focus shadow-white shadow-lg my-8">
+                <figure className="px-2 pt-2">
+                    <span className='text-9xl text-white'><FaNode></FaNode></span>
                 </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title">NodeJS Based Backend</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions">
-                        <button class="btn btn-primary">Read Details</button>
+                <div className="card-body items-center text-center">
+                    <h2 className="card-title text-white">Full Stack Websites</h2>
+                    <p className='text-white'>For making this using ReactJS, NodeJS, MongoDB, & so many.</p>
+                    <div className="card-actions">
+                        <button className="btn btn-outline text-white">Read Details</button>
                     </div>
                 </div>
             </div>

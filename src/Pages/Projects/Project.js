@@ -11,16 +11,19 @@ const Project = ({ project }) => {
 
     return (
         <>
-            <div className="card w-96 bg-base-100 shadow-xl">
-                <figure className="px-2 pt-2">
+            <div data-aos="flip-right"
+                data-aos-delay="100"
+                data-aos-duration="1200"
+                className="card lg:max-w-lg bg-base-100 shadow-white shadow-md">
+                <figure className="px-2 pt-2 pb-2">
                     <img src={img1} alt="Shoes" className="rounded-xl" />
                 </figure>
-                <div className="card-body items-center text-center">
-                    <h2 className="card-title">{name}</h2>
-                    <p><span className="font-semibold">Features:</span> {' '} {features}</p>
-                    <p> <span className="font-semibold">Technology:</span> {' '} {technology}</p>
+                <div className="card-body bg-neutral-focus items-center text-center">
+                    <h2 className="card-title text-white">{name}</h2>
+                    <p className='text-white'><span className="font-semibold text-white">Features:</span> {' '} {features}</p>
+                    <p className='text-white'> <span className="font-semibold text-white">Technology:</span> {' '} {technology}</p>
                     <div className="card-actions justify-center">
-                        <button onClick={() => navigateToProjectDetails(_id)} className="btn btn-wide btn-outline">View Details</button>
+                        <button onClick={() => navigateToProjectDetails(_id)} className="btn btn-wide btn-outline text-white">View Details</button>
                     </div>
                 </div>
             </div>
